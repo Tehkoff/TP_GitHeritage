@@ -11,7 +11,7 @@ private:
 	 * abssice
 	 */
 	unsigned short x;
-	unsigned short attribute;
+	unsigned short y;
 
 public:
 	void dep(long deltaAbs, long deltaOrd);

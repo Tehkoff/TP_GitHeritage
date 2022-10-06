@@ -4,11 +4,12 @@
 //
 
 #include <iostream>
+#include "Point.h"
 using namespace std;
 
 int main()
 {
-    cout << "TP Herritage avec Git" << endl;
+    Point a(7,14);
 
 
     return 0;
