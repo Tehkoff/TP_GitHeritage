@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/UML_Class.vpp.bak_001d
+/UML_Class.vpp.bak_000f
+/.UML_Class.vpp.lck
