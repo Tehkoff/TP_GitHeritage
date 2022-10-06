@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    cout << "TP Herritage avec Git" << endl;
 
 
     return 0;
