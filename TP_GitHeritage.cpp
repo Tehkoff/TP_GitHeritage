@@ -31,7 +31,7 @@ int main()
     Pointa b(361, 155);
     b.dep(89, 4);
     b.show(); cout << endl;
-    //cout << "Rho: " << b.rho() << endl;
+    cout << "Rho: " << b.rho() << endl;
 
 
 

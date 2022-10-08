@@ -9,7 +9,7 @@ using namespace std;
  */
 class Point {
 
-protected:
+private:
 	/**
 	 * abssice
 	 */
