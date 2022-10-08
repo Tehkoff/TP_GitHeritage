@@ -30,10 +30,11 @@ int main()
 
     Pointa b(361, 155);
     b.dep(89, 4);
-    b.show(); cout << endl;
-    cout << "Rho: " << b.rho() << endl;
+    cout << "Point b: "; b.show(); cout << endl;
+    cout << "Point b Rho: " << b.rho() << endl;
 
-
+    Pointa c;
+    cout << "Point c: "; c.show(); cout << endl;
 
     return 0;
 }
