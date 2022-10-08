@@ -4,9 +4,23 @@ Point::Point(long abs, long ord) {
 	initialise(abs, ord);
 }
 
-void Point::dep(long deltaAbs, long deltaOrd) {
-	// TODO - implement Point::dep
-	throw "Not yet implemented";
+void Point::dep(long deltaAbs, long deltaOrd)
+{
+	
+	if (deltaAbs < 0) 
+		x = 0;
+	else if(deltaAbs > 640)
+		x = 640;
+	else 
+		x = deltaAbs;
+
+	if (deltaOrd < 0) 
+		y = 0;
+	else if(deltaOrd > 480) 
+		y = 480;
+	else
+		y = deltaOrd;
+	
 }
 
 void Point::initialise(long newAbs, long newOrd) {
