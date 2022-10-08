@@ -12,14 +12,14 @@ void Point::dep(long deltaAbs, long deltaOrd)
 	else if(deltaAbs > 640)
 		x = 640;
 	else 
-		x = deltaAbs;
+		x = (unsigned short)deltaAbs;
 
 	if (deltaOrd < 0) 
 		y = 0;
 	else if(deltaOrd > 480) 
 		y = 480;
 	else
-		y = deltaOrd;
+		y = (unsigned short)deltaOrd;
 	
 }
 
