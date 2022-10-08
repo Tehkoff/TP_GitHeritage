@@ -20,6 +20,21 @@ Pointb::Pointb(Pointb& const pObjet)
     }
 }
 
+Pointb Pointb::operator=(Pointb& const pObjet)
+{
+    if (this != &pObjet)
+    {
+        x = pObjet.x;
+        y = pObjet.y;
+
+        couleur.rouge = pObjet.couleur.rouge;
+        couleur.vert = pObjet.couleur.vert;
+        couleur.bleu = pObjet.couleur.bleu;
+    }
+    
+    return *this;
+}
+
 int Pointb::getVert()
 {
     return couleur.vert;

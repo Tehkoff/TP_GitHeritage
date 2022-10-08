@@ -19,6 +19,7 @@ class Pointb : public Pointa
 		//x,y,rouge,vert,bleu
 		Pointb(long abs, long ord, char pRouge,char pVert,char pBleu);
 		Pointb(Pointb& const);
+		Pointb operator=(Pointb& const);
 
 		int getVert();
 		void setVert(int pVert);
@@ -28,7 +29,6 @@ class Pointb : public Pointa
 
 		int getBleu();
 		void setBleu(int pBleu);
-
-		
+				
 };
 
