@@ -12,15 +12,23 @@ void Point::dep(long deltaAbs, long deltaOrd) {
 void Point::initialise(long newAbs, long newOrd) {
 	//verification x
 	if (newAbs >= 0 && newAbs <= 640)
-		x = newAbs;
-	else 
+	{
+		x = (unsigned short)newAbs;
+	}
+	else
+	{
 		x = 0;
+	}
 
 	//verification y
-	if (newOrd >= 0 && newOrd <= 480) 
-		x = newOrd;
-	else 
+	if (newOrd >= 0 && newOrd <= 480)
+	{
+		y = (unsigned short)newOrd;
+	}
+	else
+	{
 		y = 0;
+	}
 
 }
 
