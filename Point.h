@@ -1,6 +1,9 @@
 #ifndef POINT_H
 #define POINT_H
 
+#include <iostream>
+using namespace std;
+
 /**
  * Classe de base du TP
  */
@@ -20,8 +23,6 @@ public:
 	 * permet d'initialisé un point
 	 */
 	void initialise(long newAbs, long newOrd);
-
-	void operation();
 
 	void show();
 

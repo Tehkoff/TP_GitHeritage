@@ -12,6 +12,8 @@ int main()
     cout << "TP Heritage avec Git" << endl;
 
     Point a(7,14);
-    
+    cout << "Point a: ";  a.show();
+
+
     return 0;
 }

@@ -32,14 +32,8 @@ void Point::initialise(long newAbs, long newOrd) {
 
 }
 
-void Point::operation() {
-	// TODO - implement Point::operation
-	throw "Not yet implemented";
-}
-
 void Point::show() {
-	// TODO - implement Point::show
-	throw "Not yet implemented";
+	cout << '(' << x << ',' << y << ')';
 }
 
 
