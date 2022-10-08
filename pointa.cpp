@@ -10,7 +10,7 @@ Pointa::Pointa() : Point(0, 0)
 	Point(0, 0);
 }
 
-unsigned short Pointa::rho()
+unsigned short Pointa::rho() const
 {
 	return x;
 }

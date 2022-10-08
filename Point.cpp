@@ -46,7 +46,8 @@ void Point::initialise(long newAbs, long newOrd) {
 
 }
 
-void Point::show() {
+void Point::show() const
+{
 	cout << '(' << x << ',' << y << ')';
 }
 

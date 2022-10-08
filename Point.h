@@ -24,7 +24,7 @@ public:
 	 */
 	void initialise(long newAbs, long newOrd);
 
-	void show();
+	void show() const;
 
 	Point(long abs, long ord);
 };
