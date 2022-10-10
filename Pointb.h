@@ -18,6 +18,7 @@ class Pointb : public Pointa
 	public:
 		//x,y,rouge,vert,bleu
 		Pointb(long abs, long ord, char pRouge,char pVert,char pBleu);
+		Pointb();
 		Pointb(Pointb& const);
 		Pointb operator=(Pointb& const);
 

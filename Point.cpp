@@ -4,6 +4,13 @@ Point::Point(long abs, long ord) {
 	initialise(abs, ord);
 }
 
+Point::Point()
+{
+	// mettre les coordoonnées
+	x = 640 / 2;
+	y = 480 / 2;
+}
+
 void Point::dep(long deltaAbs, long deltaOrd)
 {
 	

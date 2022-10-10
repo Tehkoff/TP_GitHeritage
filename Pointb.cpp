@@ -7,6 +7,13 @@ Pointb::Pointb(long abs, long ord,char pRouge,char pVert ,char pBleu): Pointa(ab
     setBleu(pBleu);
 }
 
+Pointb::Pointb(): Pointa()
+{
+    couleur.rouge = 0;
+    couleur.vert = 0;
+    couleur.bleu = 0;
+}
+
 Pointb::Pointb(Pointb& const pObjet)
 {
     if (this != &pObjet)

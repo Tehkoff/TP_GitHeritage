@@ -27,6 +27,7 @@ public:
 	void show() const;
 
 	Point(long abs, long ord);
+	Point();
 };
 
 #endif
